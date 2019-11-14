@@ -1,0 +1,21 @@
+extends ../layouts/main.pug
+
+block title
+  title Blog
+
+block content
+  div(class="container blog-page show-page")
+    div(class="row")
+      div(class="col-md-8")
+        div(class="content-box")
+          div(class="row")
+            h1 Blogs
+            div(class="col-md-12")
+              img(src="https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1507062474/hotel-everest-namche-nepal-mountain-lodge-MOUNTAIN1017.jpg?itok=g-S4SL9n")
+            div(class="col-md-12")
+              p.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            
+      div(class="col-md-4")
+        div(class="content-box")
+          include ../includes/side-ad.pug
