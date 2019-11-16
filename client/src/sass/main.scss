@@ -14,6 +14,7 @@
 // Blog
 @import "blog/index";
 @import "blog/show";
+@import "blog/create";
 
 *{
   font-family: $mainFont;
@@ -35,6 +36,9 @@ header{
     font-family: $displayFont;
     color: white;
     font-size: 1.2rem;
+    a{
+      color: white;
+    }
   }
   .menu{
     display: inline-block;
