@@ -31,6 +31,6 @@
     "gulp-sass": "^4.0.2",
     "gulp-watch": "^5.0.1",
     "node-sass": "^4.13.0",
-    "webpack": "^4.41.2"
+    "webpack": "^5.75.0"
   }
 }
